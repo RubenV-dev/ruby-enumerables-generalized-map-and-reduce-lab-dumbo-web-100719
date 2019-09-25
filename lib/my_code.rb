@@ -19,7 +19,7 @@ end
 
   while i < array.length do
     memo = yield(memo,array[i])
-    i++
+    i+=1
   end
   memo
 end
